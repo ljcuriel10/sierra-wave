@@ -4,8 +4,8 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer>
-        <Grid container spacing={2}>
+    <footer style={{marginTop: '2em'}}>
+        <Grid container spacing={2} >
             <Grid item xs='12' >
                 <Box
                     display={'flex'}

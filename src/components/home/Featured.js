@@ -3,7 +3,7 @@ import React from 'react'
 import { useTheme } from '@mui/material/styles'
 
 const FeaturedImg = {
-  bgImage: 'https://images.unsplash.com/photo-1590479773265-7464e5d48118?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+  bgImage: 'https://images.unsplash.com/photo-1634259504001-d7be629b2ae9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1126&q=80',
   title: 'Coming Soon',
   subtitle:'Image is coming soon',
 }
