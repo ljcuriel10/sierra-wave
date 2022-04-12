@@ -16,6 +16,9 @@ const Topbar = ({ onSidebarOpen }) => {
       alignItems={'center'}
       justifyContent={{ xs: 'space-between', md: 'flex-start' }}
       width={1}
+      sx={{
+        py: 2
+      }}
     >
       <Box
         sx={{

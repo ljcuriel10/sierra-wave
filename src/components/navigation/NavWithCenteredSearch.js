@@ -1,6 +1,7 @@
 
-import { AppBar, Box, Container, useTheme } from '@mui/material';
+import { AppBar, Box, Container, Divider, useTheme } from '@mui/material';
 import React, { useState } from 'react'
+import Nav from './components/Nav';
 import Topbar from './components/Topbar';
 
 
@@ -33,9 +34,19 @@ const NavWithCenteredSearch = () => {
 
   return (
     <Box>
-        <AppBar>
-            <Container>
+        <AppBar
+            position={'fixed'}
+            sx={{
+                backgroundColor: theme.palette.background.paper,
+            }}
+            elevation={0}
+        >
+            <Container paddingY={{ xs: 1, sm: 1.5 }} >
                 <Topbar onSidebarOpen={handleSidebarOpen} />
+            </Container>
+            <Divider />
+            <Container>
+                <Nav />
             </Container>
         </AppBar>
     </Box>
