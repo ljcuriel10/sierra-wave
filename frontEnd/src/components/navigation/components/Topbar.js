@@ -26,9 +26,19 @@ const Topbar = ({ onSidebarOpen }) => {
             alignItems: 'center',
         }}
       >
-          <Typography fontWeight={700} color={'text.primary'} >
+          <Link 
+             component={Button}
+              href={'/'}
+              size={'large'}
+              variant={'body1'}
+              underline={'none'}
+              sx={{
+                  color:'text.primary',
+                  justifyContent: 'space-between',
+              }}
+          >
               The Sierra Wave
-          </Typography>
+          </Link>
           <Box sx={{ midWidth:100, marginLeft:2 }}>
               <FormControl fullWidth>
                   <Select
@@ -109,7 +119,7 @@ const Topbar = ({ onSidebarOpen }) => {
             </Link>
             <Link
               component={Button}
-              href={'#'}
+              href={'/emptyCart'}
               size={'large'}
               variant={'body1'}
               underline={'none'}

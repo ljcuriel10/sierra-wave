@@ -13,6 +13,7 @@ const Footer = () => {
                     alignItems={'center'}
                     width={1}
                     flexDirection={{ xs: 'column', sm: 'row' }}
+                    
                 >
                     <Typography fontWeight={700} color={'text.primary'}>
                         Sierra Wave
@@ -37,7 +38,7 @@ const Footer = () => {
                              href='#'
                              color='GrayText.primary'
                             >
-                             Contacts
+                             Contact
                             </Link>
                         </Box>
                         <Box marginLeft={2}>

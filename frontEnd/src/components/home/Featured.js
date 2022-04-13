@@ -1,4 +1,4 @@
-import { Button, Card, CardContent, CardMedia, Typography, Box, Container } from '@mui/material'
+import { Card, Typography, Box, Container } from '@mui/material'
 import React from 'react'
 import { useTheme } from '@mui/material/styles'
 
@@ -24,6 +24,7 @@ const Featured = () => {
         justifyContent: {xs: 'center', sm:'flex-end'},
         minHeight: {xs:400, sm:500, md:600},
         filter: theme.palette.mode === 'dark' ? 'brightness(0.7)' : 'none',
+        
       }}
     >
       <Container 
@@ -34,6 +35,7 @@ const Featured = () => {
               width: 1,
               maxWidth: {xs: 1, sm: '50%'},
               p: {xs:2, sm: 4},
+              opacity: "88%"
             }}>
               <Typography color={'text.secondary'} fontWeight={700} variant={'h4'}>
                 {FeaturedImg.title}

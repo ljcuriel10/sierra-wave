@@ -35,9 +35,10 @@ const NavWithCenteredSearch = () => {
   return (
     <Box>
         <AppBar
-            position={'fixed'}
+            position={'fixed-top'}
             sx={{
                 backgroundColor: theme.palette.background.paper,
+                display: 'block'
             }}
             elevation={0}
         >
