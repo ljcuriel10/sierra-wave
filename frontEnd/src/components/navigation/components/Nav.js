@@ -5,7 +5,7 @@ const Nav = () => {
   return (
     <Stack direction={{ xs: 'column', md: 'row' }} spacing={{ xs: 2, md: 8}} sx={{py: 1}} >    
       <Link
-        href={'#'}
+        href={'/products'}
         variant={'body2'}
         underline={'none'}
         color={'text.primary'}
